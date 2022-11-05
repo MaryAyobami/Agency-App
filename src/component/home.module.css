@@ -22,7 +22,8 @@
     left: 0;
     right: 0;
     text-align: center;
-    top: 35%;
+    top: 50%;
+    /* bottom: 0; */
     
 }
 .content h1{
@@ -98,11 +99,11 @@
     opacity: 1;
     width: 110%;
 }
-@media(max-width:900px){
+@media(max-width:700px){
     .content{
         position: absolute;
         text-align: center;
-        top: 21%;  
+        top: 23%;  
         left: 0;
         right: 0;     
     }

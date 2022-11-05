@@ -62,7 +62,7 @@ function Hotels() {
       };
   return (
     <div>
-          <h1>Explore undred of hotel packages at once</h1>
+          <h1>Explore hundred of hotel packages at once</h1>
           {/* <div className={style.searchbox}>
            <input type="text"  onChange={filterBySearch}/><a href="/packages/hotels"><FaSearch /></a> 
           </div> */}

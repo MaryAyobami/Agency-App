@@ -109,13 +109,15 @@ p{
 } 
 @media(max-width:900px){
     .pack{
-        width: 95%;
+        width: 98%;
+        margin: 0 auto;
     }
     .package{
         flex-direction: column;
         padding: 0;   
         justify-content:space-around;
         align-items: flex-start;
+        
     }
 
     .package .up1{
@@ -126,6 +128,10 @@ p{
         padding: 0;
         align-items: flex-start;
         
+    }
+    .package .up{
+        border-bottom: 1px solid #ccc;
+        padding: 0.5em;
     }
     .package .up img{
         width: 50%;

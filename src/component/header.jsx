@@ -1,7 +1,7 @@
 import style from './header.module.css'
 import AppRouter from './router'
 import React, {useState,useEffect} from 'react'
-import { FaBars , FaTimes, FaUser } from 'react-icons/fa';
+import { FaBars , FaHeart, FaTimes, FaUser } from 'react-icons/fa';
 import HomePage from './home';
 import { HashLink } from 'react-router-hash-link';
 import {HashLink as Link} from 'react-router-hash-link'
@@ -120,7 +120,7 @@ function Header() {
       <div className={style.copyright}>
       <span >  Copyright 2022 ecofly | All rights reserved.</span>
       <br />
-      <span>Made with love by MaryAyobami.</span>
+      <span>Made with <FaHeart/> by MaryAyobami.</span>
       </div>
     
     </div>

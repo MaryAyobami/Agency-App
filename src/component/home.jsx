@@ -19,7 +19,7 @@ const HomePage = ()=>{
         <div className={style.content}>
             <h1>Welcome to ECOFLY TRAVEL</h1>
             <p>The world is waiting</p>
-            <button className={style.btn}><a href="/pacakages/trips">explore trips</a></button>
+            <button className={style.btn}><a href="/packages/trips">explore trips</a></button>
         </div>
         <section className={style.destination}>
         <h1>Top destinations for you</h1>
